@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="190px"
+    android:layout_height="72px"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/item_frameRb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/selector_frame_gv_item_bg"
+        android:button="@null"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="2"
+        android:paddingLeft="10px"
+        android:paddingTop="4px"
+        android:paddingRight="10px"
+        android:paddingBottom="4px"
+        android:textColor="@drawable/selector_search_gv_item_tv"
+        android:textSize="28px">
+
+    </CheckBox>
+</LinearLayout>
